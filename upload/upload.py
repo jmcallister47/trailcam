@@ -79,7 +79,7 @@ def uploadLogFiles():
     with open(os.devnull, 'w') as fp:
         p = subprocess.Popen(cmd, shell = True, stdout = fp)
     #upload day log
-    cmd = "/home/pi/trailcam/thirdparty/Dropbox-Uploader/dropbox_uploader.sh upload " + \ 
+    cmd = "/home/pi/trailcam/thirdparty/Dropbox-Uploader/dropbox_uploader.sh upload " + \
           "/home/pi/trailcam/day/log.txt /LOG_FILES/day-log.txt"
     with open(os.devnull, 'w') as fp:
         p = subprocess.Popen(cmd, shell = True, stdout = fp)
