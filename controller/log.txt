@@ -1,3 +1,0 @@
-Starting motion-controller script at 2016-12-23 23:43:09.433762
-Starting motion-controller script at 2016-12-24 23:21:19.836932
-Starting motion-controller script at 2016-12-24 23:30:11.265735
