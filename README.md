@@ -8,5 +8,5 @@ The code is divided into 5 parts:
 * **thirdparty**: Dropbox-Uploader (https://github.com/andreafabrizi/Dropbox-Uploader) and motion-pie scripts 
 * **upload**: Contains files to upload motion and log files to Dropbox if network connection available and deletes tmp files
 * **tmp**: local motion files to be uploaded
-<img src="https://cloud.githubusercontent.com/assets/19669249/21469991/2eec9054-ca39-11e6-8987-970983a2f51d.jpg" alt="Drawing" style="width: 200px;"/>
+<img src="https://cloud.githubusercontent.com/assets/19669249/21469991/2eec9054-ca39-11e6-8987-970983a2f51d.jpg" alt="Drawing" style="width: 100px;"/>
 ![](https://cloud.githubusercontent.com/assets/19669249/21469991/2eec9054-ca39-11e6-8987-970983a2f51d.jpg)
