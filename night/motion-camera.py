@@ -13,7 +13,6 @@ def main():
     while True:
         if sensor.motion_detected:
             turnOnLights()
-            sleep(1) #wait one second to ensure lights are all on
             takePicture() 
             sleep(2) 
             turnOffLights()
