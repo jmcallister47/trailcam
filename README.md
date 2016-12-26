@@ -1,6 +1,6 @@
 # Trailcam
 ### Raspberry Pi Motion camera written predominantly in Python with automated Dropbox upload.
-Designed to be used as efficient battery-powered trailcam that uploads over cellular dongle
+Designed to be used as efficient battery-powered trailcam that uploads over cellular dongle.
 The code is divided into 5 parts:
 * **controller**: Manages various scripts. Controls which motion mode (day or night) is is being run and starts the Dropbox upload. 
 * **day**: Motion mode that uses 3rd party motion software (https://github.com/ccrisan/motionpie). Does not require motion sensor by comparing images to detect motion. Produces images and video.  
