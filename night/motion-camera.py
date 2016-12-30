@@ -23,7 +23,7 @@ def main():
             #sleep(3) 
             turnOffLights()
             print("Turn off lights")
-            sleep(4) 
+            sleep(3) 
             writeToLogFile("Took one picture at " + str(datetime.now()))
 
 '''Turns on IR Lights indefinetely'''
