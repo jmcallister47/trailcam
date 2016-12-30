@@ -44,7 +44,7 @@ def upload():
     numberOfFiles = 0
     for file in files:
         numberOfFiles += 1
-        cmd = "/home/pi/trailcam/thirdparty/Dropbox-Uploader/dropbox_uploader.sh upload -s " + \
+        cmd = "/home/pi/trailcam/thirdparty/Dropbox-Uploader/dropbox_uploader.sh upload " + \
               "/home/pi/trailcam/tmp/" + str(file) + " /" + directory  
         with open(os.devnull, 'w') as fp:
             p = subprocess.Popen(cmd, shell = True, stdout = fp)
